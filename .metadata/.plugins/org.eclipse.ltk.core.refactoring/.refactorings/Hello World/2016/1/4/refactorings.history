@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;bangbean&apos; to &apos;Komunikator/src&apos;&#x0D;&#x0A;- Original project: &apos;Hello World&apos;&#x0D;&#x0A;- Destination element: &apos;Komunikator/src&apos;&#x0D;&#x0A;- Original element: &apos;Hello World/src/bangbean&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Komunikator/src" element1="/src&lt;bangbean" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1453756856815" version="1.0"/>
+</session>

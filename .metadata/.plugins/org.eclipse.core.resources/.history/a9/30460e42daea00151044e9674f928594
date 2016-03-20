@@ -1,0 +1,13 @@
+package lekcja32;
+
+class Machine{
+	public void start(){
+		
+	}
+}
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,26 @@
+package lista2MJ;
+
+public class Klient extends Thread {
+	Muzeum muzeum;
+	
+	public Klient(Muzeum muzeum){
+		this.muzeum = muzeum;
+		
+	}
+	
+	public void run() {
+		boolean wartosc;
+		do {
+			wartosc = muzeum.isFree();
+			Thread.sleep(4000);
+		} while (wartosc == false);
+
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		muzeum.exitFromMuseum();
+	}
+}

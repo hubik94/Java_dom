@@ -1,0 +1,7 @@
+package lekcja27;
+
+public interface Interfejs {
+	public default void pisz(){
+		
+	}
+}

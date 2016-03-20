@@ -1,0 +1,7 @@
+package lekcja31;
+
+public class Glwona {
+	public static void main(String[] args) {
+		Dodatkowa dod = new Dodatkowa();
+	}
+}

@@ -1,0 +1,9 @@
+package lekcja48;
+
+import java.io.FileInputStream;
+
+public class ReadObject {
+	
+	FileInputStream fi = new FileInputStream("poeple.bin")
+	
+}

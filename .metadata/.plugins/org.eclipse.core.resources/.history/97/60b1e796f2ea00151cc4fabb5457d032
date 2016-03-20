@@ -1,0 +1,7 @@
+package lekcja37;
+
+public class Glowna {
+	public static void main(String[] args) {
+		String fileName="C:\Users\hubik_000\Desktop\text.txt";
+	}
+}

@@ -1,0 +1,33 @@
+package lekcja48;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class WriteObject {
+	public static void main(String[] args) {
+		System.out.println("Writting objects...");
+
+		Person Hubert = new Person(22, "Hubert");
+		Person Michal = new Person(20, "Micha³");
+
+		System.out.println(Hubert);
+		System.out.println(Michal);
+
+		try (FileOutputStream fs = new FileOutputStream("people.bin")) {
+
+			ObjectOutputStream os = new ObjectOutputStream(fs);
+
+			os.writeObject(Hubert);
+			
+			os.close();
+
+		} catch (FileNotFoundException e) {
+			System.out.println("nie mo¿na znaleŸæ pliku");
+		} catch (IOException e) {
+			System.out.println("IOException");
+		}
+
+	}
+}

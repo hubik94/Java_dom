@@ -1,0 +1,13 @@
+package lista2MJ;
+
+public class Bramka extends Thread{
+	Muzeum muzeum;
+	
+	public Bramka(Muzeum muzeum){
+		this.muzeum = muzeum;
+	}
+	
+	public void run(){
+		Klient klient = new Klient(muzeum);
+	}
+}

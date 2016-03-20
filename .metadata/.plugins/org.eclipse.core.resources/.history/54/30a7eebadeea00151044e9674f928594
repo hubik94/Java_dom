@@ -1,0 +1,13 @@
+package lekcja34;
+
+import java.util.ArrayList;
+
+public class Glowna {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Banan");
+		list.add("Apple");
+		list.add("Kiwi");
+		String fruit = list.get(1);
+	}
+}

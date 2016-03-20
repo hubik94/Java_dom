@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_65" version="1.8.0_65">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_65\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_65\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\Programy\JDK\jre" version="1.8.0_60">
+<bootpath>
+<entry path="E:\Programy\JDK\jre\lib\resources.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\rt.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\sunrsasign.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\jsse.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\jce.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\charsets.jar"/>
+<entry path="E:\Programy\JDK\jre\lib\jfr.jar"/>
+<entry path="E:\Programy\JDK\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Programy\JDK\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Programy\JDK\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\Programy\JRE" version="1.8.0_60">
+<bootpath>
+<entry path="E:\Programy\JRE\lib\resources.jar"/>
+<entry path="E:\Programy\JRE\lib\rt.jar"/>
+<entry path="E:\Programy\JRE\lib\sunrsasign.jar"/>
+<entry path="E:\Programy\JRE\lib\jsse.jar"/>
+<entry path="E:\Programy\JRE\lib\jce.jar"/>
+<entry path="E:\Programy\JRE\lib\charsets.jar"/>
+<entry path="E:\Programy\JRE\lib\jfr.jar"/>
+<entry path="E:\Programy\JRE\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Programy\JRE\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Programy\JRE\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\Programy" version="1.8.0_60">
+<bootpath>
+<entry path="E:\Programy\jre\lib\resources.jar"/>
+<entry path="E:\Programy\jre\lib\rt.jar"/>
+<entry path="E:\Programy\jre\lib\sunrsasign.jar"/>
+<entry path="E:\Programy\jre\lib\jsse.jar"/>
+<entry path="E:\Programy\jre\lib\jce.jar"/>
+<entry path="E:\Programy\jre\lib\charsets.jar"/>
+<entry path="E:\Programy\jre\lib\jfr.jar"/>
+<entry path="E:\Programy\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Programy\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Programy\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03" version="1.6.0_03">
+<bootpath>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\resources.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\rt.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\sunrsasign.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\jsse.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\jce.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\charsets.jar"/>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Autodesk\Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_R2_dlm\x64\DirectConnect\Autodesk Shared\DC\java\jre1.6.0_03\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\JDK Program" version="1.8.0_60">
+<bootpath>
+<entry path="E:\JDK Program\lib\resources.jar"/>
+<entry path="E:\JDK Program\lib\rt.jar"/>
+<entry path="E:\JDK Program\lib\sunrsasign.jar"/>
+<entry path="E:\JDK Program\lib\jsse.jar"/>
+<entry path="E:\JDK Program\lib\jce.jar"/>
+<entry path="E:\JDK Program\lib\charsets.jar"/>
+<entry path="E:\JDK Program\lib\jfr.jar"/>
+<entry path="E:\JDK Program\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\JDK Program\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\JDK Program\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jdk1.8.0_65" version="1.8.0_65">
+<bootpath>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

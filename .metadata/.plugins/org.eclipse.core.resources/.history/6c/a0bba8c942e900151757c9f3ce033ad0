@@ -1,0 +1,14 @@
+package lista2MJ;
+
+public class Muzeum {
+	int Max = 5;
+	int PeopleIn = 0;
+	
+	public void entrance(){
+		PeopleIn++;	
+	}
+	
+	public void exit(){
+		
+	}
+}

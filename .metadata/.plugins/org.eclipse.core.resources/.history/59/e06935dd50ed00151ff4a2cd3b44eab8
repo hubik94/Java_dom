@@ -1,0 +1,13 @@
+package lekcja48;
+
+import java.io.FileInputStream;
+
+public class ReadObject {
+	
+	public static void main(String[] args) {
+		try (FileInputStream fi = new FileInputStream("poeple.bin")) {
+
+		}
+	}
+
+}

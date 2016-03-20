@@ -1,0 +1,36 @@
+package lista1;
+
+import java.util.Random;
+
+public class World {
+	public World() {
+		
+	}
+
+	static int n = 5, i = 0;
+	static int[] tab = new int[n];
+	Random random = new Random();
+
+	public static void main(String[] args) {
+		World world = new World();
+		new Zad2(world).start(); //x
+		new Zad2(world).start(); //y
+		new Wypisz(world).start();
+//		Thread thread2 = new Thread(new Zad2());
+//		thread2.start();
+	}
+	// X Y 
+	
+	// x = i = 0
+	// y = i = 1
+	public synchronized void setInteger() {
+		try{
+		tab[i] = random.nextInt();
+		System.out.println("Wpisana liczba to: " + tab[i]);
+		i++;
+		}catch(ArrayIndexOutOfBoundsException e){
+			//System.out.println("Program zapisa³ tablicê!");
+		}
+	}
+
+}

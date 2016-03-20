@@ -1,0 +1,12 @@
+package lekcja6;
+
+public class zad2 {
+	zad2(){
+		System.out.println("Dzia³a!");
+	}
+	
+	public void stop(){
+		System.out.println("Zatrzymanie");
+	}
+}
+

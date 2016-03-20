@@ -1,0 +1,10 @@
+package lekcja27;
+
+public class Glowna implements Interfejs{
+
+	@Override
+	public void pisz() {
+		System.out.println("Hello");
+		
+	}
+}

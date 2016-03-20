@@ -1,0 +1,33 @@
+package lista2MJ;
+
+public class Muzeum {
+	static int Max = 5;
+	static int PeopleIn = 0;
+
+	public void entrance() {
+		PeopleIn++;
+	}
+
+	public void exit() {
+		PeopleIn--;
+	}
+
+	public boolean isFree() {
+		String name = Thread.currentThread().getName();
+		if (PeopleIn < Max) {
+			System.out.println("Do muzeum wchodzi: " + name);
+			entrance();
+			return true;
+		} else {
+			//System.out.println("Do muzeum nie mo¿e wejœæ: " + name);
+			return false;
+		}
+	}
+	
+	public void exitFromMuseum(){
+		String name = Thread.currentThread().getName();
+		System.out.println("Z muzeum wychodzi: " + name);
+		exit();
+	}
+
+}

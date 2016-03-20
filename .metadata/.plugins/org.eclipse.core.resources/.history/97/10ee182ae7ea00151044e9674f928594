@@ -1,0 +1,11 @@
+package zad36;
+
+class Machine{
+	
+}
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+	}
+}

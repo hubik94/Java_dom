@@ -1,0 +1,11 @@
+package lekcja6;
+
+public class Zad3 extends zad2{
+
+	public Zad3(){
+		System.out.println("Wystartowa³");
+	}
+	public void jazda(){
+		System.out.println("JAZDA!");
+	}
+}

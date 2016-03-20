@@ -1,0 +1,13 @@
+package zad36;
+
+class Machine{
+	public void start(){
+		System.out.println("Starting Machine");
+	}
+}
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+	}
+}

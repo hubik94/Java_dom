@@ -1,0 +1,9 @@
+package lekcja28;
+
+public class ProtPrivPubl {
+	public String name;
+	
+	public ProtPrivPubl(){
+		this.name = "I'm an example";
+	}
+}

@@ -1,0 +1,20 @@
+package lekcja6;
+
+class Cos{
+	String name;
+	public String toString(){
+//		StringBuilder sb = new StringBuilder();
+//		sb.append(i);
+//		return sb.toString();
+		return String.format("%-4d : ehehe", 7);
+	}
+}
+
+public class SBStringBuilder {
+	public SBStringBuilder(){
+		Cos cos = new Cos();
+	}
+	public static void main(String[] args) {
+		System.out.println(cos.toString());
+	}
+}

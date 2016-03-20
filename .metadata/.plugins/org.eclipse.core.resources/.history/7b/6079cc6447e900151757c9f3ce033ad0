@@ -1,0 +1,9 @@
+package lista2MJ;
+
+public class Bramka {
+	Muzeum muzeum;
+	
+	public Bramka(Muzeum muzeum){
+		this.muzeum = muzeum;
+	}
+}

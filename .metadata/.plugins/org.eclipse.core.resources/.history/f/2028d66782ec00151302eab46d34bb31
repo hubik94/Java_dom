@@ -1,0 +1,7 @@
+package lekcja46;
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+	}
+}

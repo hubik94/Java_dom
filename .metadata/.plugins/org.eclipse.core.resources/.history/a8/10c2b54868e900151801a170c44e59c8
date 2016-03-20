@@ -1,0 +1,11 @@
+package lekcja27;
+
+public class Glowna {
+	String name;
+	public Glowna(String name) {
+		this.name = name;
+	}
+	public static void main(String[] args) {
+		System.out.println(name);
+	}
+}

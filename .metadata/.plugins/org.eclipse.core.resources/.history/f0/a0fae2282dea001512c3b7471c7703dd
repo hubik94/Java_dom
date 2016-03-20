@@ -1,0 +1,28 @@
+package lista1;
+
+import java.util.Random;
+
+public class World {
+	public World() {
+	
+	}
+
+	static int n = 5, i = 0;
+	static Integer[] tab = new Integer[n];
+	Random random = new Random();
+
+	public static void main(String[] args) {
+		World world = new World();
+		Thread thread = new Thread(new Zad2());
+		thread.start();
+		//Thread thread2 = new Thread(new Zad2());
+		//thread2.start();
+	}
+
+	public void setInteger() {
+		tab[i] = random.nextInt();
+		System.out.println("Wpisana liczba to: " + tab[i]);
+		i++;
+	}
+
+}

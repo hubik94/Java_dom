@@ -1,0 +1,25 @@
+package lista2MJ;
+
+public class Muzeum {
+	static int Max = 5;
+	static int PeopleIn = 0;
+	
+	public void entrance(){
+		PeopleIn++;	
+	}
+	
+	public void exit(){
+		PeopleIn--;
+	}
+	
+	public boolean isFree(){
+		String name = Thread.currentThread().getName();
+		if(PeopleIn<Max){
+			System.out.println("");
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+}

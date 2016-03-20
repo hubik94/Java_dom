@@ -1,0 +1,39 @@
+package lekcja38;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Glowna {
+	public static void main(String[] args) {
+		File file = new File("text");
+		FileReader fr = null;
+		BufferedReader br = null;
+
+		try {
+			fr = new FileReader(file);
+			br = new BufferedReader(fr);
+
+			String line;
+
+			while ((line = br.readLine()) != null) {
+				System.out.println(line);
+			}
+
+		} catch (FileNotFoundException e) {
+			System.out.println("Nie odnaleziono pliku: " + file.toString());
+		} catch (IOException e) {
+			System.out.println("Nie mogê odczytaæ pliku: " + file.toString());
+		} finally {
+			try {
+				br.close();
+			} catch (IOException e) {
+				System.out.println("Nie mogê zamkn¹æ pliku");
+			} catch (NullPointerException e) {
+				// System.out.println("Plik nie zosta³ nigdy otwarty");
+			}
+		}
+	}
+}

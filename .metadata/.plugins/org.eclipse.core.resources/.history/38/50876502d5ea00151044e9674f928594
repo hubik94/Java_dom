@@ -1,0 +1,8 @@
+package lekcja28;
+
+public class Glowna {
+	public static void main(String[] args) {
+		Plant plant = new Plant();
+		Tree tree = new Tree();
+	}
+}

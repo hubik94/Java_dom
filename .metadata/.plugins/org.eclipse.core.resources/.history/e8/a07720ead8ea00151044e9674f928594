@@ -1,0 +1,18 @@
+package lekcja32;
+
+public class Glowna {
+	public static void main(String[] args) {
+		byte byteValue = 20;
+		short shortValue = 45;
+		int wartosc = 888;
+		long longValue = 52226;
+		
+		float floatValue = 8834.3f;
+		double doubleValue = 32.4;
+		
+		System.out.println(Integer.MAX_VALUE);
+		
+		wartosc = <int>longValue;
+		
+	}
+}

@@ -1,0 +1,27 @@
+package lista1;
+
+public class Wypisz extends Thread {
+	World world;
+	static int l = 0;
+
+	public Wypisz(World world) {
+		this.world = world;
+	}
+
+	public void run(){
+		while(l<5){
+			for(int i=0;i<world.n;i++){
+				System.out.println("Wartoœæ tablic o indeksie " + i + " = " + world.tab[i]);
+				world.tab[i] = 0;
+			}
+			l++;
+			try {
+				Thread.sleep(300);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

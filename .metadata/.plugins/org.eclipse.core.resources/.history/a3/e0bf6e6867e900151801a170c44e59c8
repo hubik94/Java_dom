@@ -1,0 +1,9 @@
+package lekcja27;
+
+import lekcja6.*;
+
+public class Glowna {
+	public static void main(String[] args) {
+		lekcja6 gl = new lekcja6;
+	}
+}

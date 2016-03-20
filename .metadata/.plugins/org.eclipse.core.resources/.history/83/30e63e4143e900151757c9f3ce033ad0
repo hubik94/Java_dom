@@ -1,0 +1,5 @@
+package lista2MJ;
+
+public class Klient extends Thread{
+
+}

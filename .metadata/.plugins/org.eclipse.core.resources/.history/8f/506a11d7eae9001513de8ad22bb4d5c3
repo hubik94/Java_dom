@@ -1,0 +1,13 @@
+package lekcja27;
+
+public class Glowna implements Interfejs {
+	public static void main(String[] args) {
+		
+	}
+
+	@Override
+	public void pisz() {
+		System.out.println("Hello");
+
+	}
+}

@@ -1,0 +1,7 @@
+package zad36;
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,7 @@
+package lista2MJ;
+
+public class Klient extends Thread{
+	public void run(){
+		
+	}
+}

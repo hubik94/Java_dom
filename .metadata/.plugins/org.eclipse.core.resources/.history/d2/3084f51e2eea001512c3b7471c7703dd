@@ -1,0 +1,17 @@
+package lista1;
+
+public class Wypisz extends Thread{
+	World world;
+	int i = 0;
+	
+	public Wypisz(World world){
+		this.world = world;
+	}
+	
+	public void run(){
+		while(i<world.n){
+			
+		}
+	}
+	
+}

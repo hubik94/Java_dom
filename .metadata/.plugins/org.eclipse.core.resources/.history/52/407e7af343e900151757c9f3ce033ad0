@@ -1,0 +1,9 @@
+package lista2MJ;
+
+public class Klient extends Thread{
+	Muzeum muzeum = new Muzeum();
+	
+	public void run(){
+		
+	}
+}

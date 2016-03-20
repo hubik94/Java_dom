@@ -1,0 +1,21 @@
+package lekcja48;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class ReadObject {
+	
+	public static void main(String[] args) {
+		try (FileInputStream fi = new FileInputStream("poeple.bin")) {
+			
+			
+			
+		} catch (FileNotFoundException e) {
+			System.out.println("Nie znaleziono pliku");
+		} catch (IOException e) {
+			System.out.println("IOException");
+		}
+	}
+
+}

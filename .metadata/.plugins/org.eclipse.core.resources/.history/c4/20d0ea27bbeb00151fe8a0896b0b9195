@@ -1,0 +1,12 @@
+package lekcja43;
+
+import java.io.BufferedReader;
+import java.io.File;
+
+public class Glowna2 {
+	public static void main(String[] args) {
+		File file = new File("text");
+		
+		BufferedReader br = new BufferedReader(file);
+	}
+}

@@ -1,0 +1,75 @@
+package generic.Wildcards;
+
+import java.util.ArrayList;
+
+class Machine {
+
+	String name;
+	int age;
+	public Machine(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Your name is " + name + " and your age is " + age;
+	}
+
+	public void start() {
+		System.out.println("Machine launched");
+	}
+}
+
+class Camera extends Machine {
+
+	public Camera(String name, int age, int mp) {
+		super(name, age);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "I'm a camera";
+	}
+
+	public void snap() {
+		System.out.println("Camera took photo");
+	}
+}
+
+public class Glowna {
+	public static void main(String[] args) {
+
+		ArrayList<Machine> list = new ArrayList<Machine>();
+		list.add(new Machine());
+		list.add(new Machine());
+
+		ArrayList<Camera> list2 = new ArrayList<Camera>();
+		list2.add(new Camera());
+		list2.add(new Camera());
+
+		// showList(list);
+		// showList(list2);
+		showList2(list2);
+	}
+
+	public static void showList(ArrayList<? extends Machine> list) {
+		for (Machine value : list) {
+			System.out.println(value);
+			value.start();
+		}
+	}
+
+	public static void showList2(ArrayList<? super Camera> list) {
+		for (Object value : list) {
+			System.out.println(value);
+		}
+	}
+
+	public static void showList3(ArrayList<?> list) {
+		for (Object value : list) {
+			System.out.println(value);
+		}
+	}
+}

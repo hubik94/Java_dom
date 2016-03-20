@@ -1,0 +1,11 @@
+package lista1;
+
+public class Wypisz {
+	World world;
+	
+	public Wypisz(World world){
+		this.world = world;
+	}
+	
+	
+}

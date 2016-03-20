@@ -1,0 +1,24 @@
+package lista1;
+
+public class Zad2 extends World implements Runnable {
+
+	World world = new World();
+	int n = super.n;
+	int i = 0;
+	public Zad2() {
+	}
+
+	@Override
+	public void run() {
+		while (i<n) {
+			super.setInteger();
+			i++;
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				System.out.println("nie uda³o siê!");
+			}
+		}
+	}
+
+}

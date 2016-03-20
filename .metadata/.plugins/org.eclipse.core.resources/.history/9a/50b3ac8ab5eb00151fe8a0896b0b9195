@@ -1,0 +1,5 @@
+package lekcja38;
+
+public class Camera extends Machine{
+
+}

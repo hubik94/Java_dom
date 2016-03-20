@@ -1,0 +1,10 @@
+package lekcja27;
+
+import lekcja6.Glowna;
+
+public class Glowna {
+	public static void main(String[] args) {
+		lekcja6.G gl = new lekcja6();
+		
+	}
+}

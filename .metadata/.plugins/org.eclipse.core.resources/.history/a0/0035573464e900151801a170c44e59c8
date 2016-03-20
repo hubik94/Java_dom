@@ -1,0 +1,18 @@
+package lekcja6;
+
+public class zad1 {
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("");
+		sb.append("Hubert to ja!");
+		sb.append(" a moøe nie xD");
+		
+		System.out.println(sb);
+		
+		StringBuilder sb2 = new StringBuilder();
+		sb2.append("no nieüle ")
+		.append("ciekawe!");
+		
+		System.out.println(sb2);
+		
+	}
+}

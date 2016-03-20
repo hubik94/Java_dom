@@ -1,0 +1,9 @@
+package lekcja43;
+
+import com.sun.org.apache.bcel.internal.classfile.Field;
+
+public class Glowna2 {
+	public static void main(String[] args) {
+		File file = new Field("text");
+	}
+}

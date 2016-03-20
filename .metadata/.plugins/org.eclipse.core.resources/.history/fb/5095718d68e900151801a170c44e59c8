@@ -1,0 +1,12 @@
+package lekcja27;
+
+public class Glowna {
+	static String name;
+	public Glowna(String name) {
+		this.name = name;
+		System.out.println(name);
+	}
+	public static void main(String[] args) {
+		
+	}
+}

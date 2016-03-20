@@ -1,0 +1,22 @@
+package lekcja51;
+
+import java.io.Serializable;
+
+public class Person implements Serializable{
+
+	private static final long serialVersionUID = 3748436598017597743L;
+	private transient int id;	///nie serializuje tej wartoœci 
+	private String name;
+	
+	private static int count'
+
+	public Person(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Person [name = " + name + "]";
+	}
+}

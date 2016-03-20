@@ -1,0 +1,8 @@
+import lekcja6.SBStringBuilder;;
+
+public class Glowna {
+	public static void main(String[] args) {
+		
+		
+	}
+}

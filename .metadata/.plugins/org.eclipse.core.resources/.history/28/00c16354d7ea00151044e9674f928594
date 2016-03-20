@@ -1,0 +1,11 @@
+package lekcja31;
+
+public class Glwona {
+	public static void main(String[] args) {
+		String name;
+		Dodatkowa dod = new Dodatkowa();
+		dod.setName("Hubert");
+		dod.getName();
+		
+	}
+}

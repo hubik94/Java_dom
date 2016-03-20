@@ -1,0 +1,6 @@
+package lekcja28;
+
+public class ProtPrivPubl {
+	public String name;
+	
+}

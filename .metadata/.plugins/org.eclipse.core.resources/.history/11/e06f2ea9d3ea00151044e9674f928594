@@ -1,0 +1,16 @@
+package lekcja28;
+
+public class ProtPrivPubl {
+	public String name;
+	
+	public final static int ID=9;
+	
+	private String type; 
+	
+	protected String size;
+	
+	public ProtPrivPubl(){
+		this.name = "I'm an example";
+		this.type = "Prywatna";
+	}
+}

@@ -1,0 +1,11 @@
+package lekcja46;
+
+public class Robot {
+	private int id;
+
+	public Robot(int id) {
+		super();
+		this.id = id;
+	}
+	
+}

@@ -1,0 +1,48 @@
+package generic.Wildcards;
+
+import java.util.ArrayList;
+
+import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+
+class Machine {
+
+	@Override
+	public String toString() {
+		return "I'm a machine";
+	}
+	public void start(){
+		System.out.println("Machine launched");
+	}
+}
+
+class Camera extends Machine {
+
+	@Override
+	public String toString() {
+		return "I'm a camera";
+	}
+
+}
+
+public class Glowna {
+	public static void main(String[] args) {
+
+		ArrayList<Machine> list = new ArrayList<Machine>();
+		list.add(new Machine());
+		list.add(new Machine());
+
+		ArrayList<Camera> list2 = new ArrayList<Camera>();
+		list.add(new Camera());
+		list.add(new Camera());
+
+		showList(list);
+		showList(list2);
+	}
+
+	public static void showList(ArrayList<? extends Machine> list) {
+		for (Machine value : list) {
+			System.out.println(value);
+			value.start();
+		}
+	}
+}

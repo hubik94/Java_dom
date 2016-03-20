@@ -1,0 +1,9 @@
+package lekcja28;
+
+public class Glowna {
+	public static void main(String[] args) {
+		ProtPrivPubl prz1 = new ProtPrivPubl();
+		System.out.println(prz1.name);
+		System.out.println(prz1.size);
+	}
+}

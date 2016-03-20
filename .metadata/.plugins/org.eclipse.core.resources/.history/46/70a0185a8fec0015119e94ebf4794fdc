@@ -1,0 +1,9 @@
+package enumPrzyklad;
+
+public enum Animal {
+	CAT, DOG, MOUSE;
+	
+	private Animal(String name) {
+		
+	}
+}

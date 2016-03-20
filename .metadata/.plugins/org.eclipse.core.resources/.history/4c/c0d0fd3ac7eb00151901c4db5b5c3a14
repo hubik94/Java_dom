@@ -1,0 +1,14 @@
+package lekcja45;
+
+class Person{
+	private int id;
+	private String name;
+}
+
+public class Glowna {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

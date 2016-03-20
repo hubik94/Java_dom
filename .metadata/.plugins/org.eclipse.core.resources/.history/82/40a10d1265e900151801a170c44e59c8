@@ -1,0 +1,17 @@
+package lekcja6;
+
+class Cos{
+	String name;
+	public String toString(int i){
+		StringBuilder sb = new StringBuilder();
+		sb.append(i);
+		return sb'
+	}
+}
+
+public class zad1 {
+	public static void main(String[] args) {
+		Cos cos = new Cos();
+		System.out.println(cos.toString(7));
+	}
+}

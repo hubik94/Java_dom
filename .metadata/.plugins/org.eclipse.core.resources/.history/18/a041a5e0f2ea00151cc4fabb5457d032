@@ -1,0 +1,13 @@
+package lekcja37;
+
+import java.io.File;
+
+public class Glowna {
+	public static void main(String[] args) {
+		String fileName="C:\\Users\\hubik_000\\Desktop\\text.txt";
+		
+		File textFile = new File(fileName);
+		
+		
+	}
+}
